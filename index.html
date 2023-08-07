@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Ideas Generator</title>
+        <link  href="styles/output.css" rel="stylesheet"/>
+        <link  href="styles/index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="bg-slate-100 w-screen h-screen relative content">
+            <div class="bg-transparent px-6 leading-none title text-transparent 
+            bg-clip-text bg-gradient-to-r from-slate-800 to-cyan-400 to-90%
+            sm:py-40 md:pt-30 xl:pt-20">
+                Website <br> Ideas <br> Generator
+            </div>
+            <div class="sm:w-96 sm:h-56 rounded overflow-hidden border border-gray-200 shadow-lg 
+            bg-gradient-to-r from-zinc-100 to-zinc-200 sm:right-10 sm:bottom-10 absolute card rounded-2xl">
+                <div class="px-4 py-4 text mb-0">
+                  Press the button to generate an idea.
+                  <div class="px-6 pt-4 pb-2 text-xl font-bold">
+                    Type: <span id="random-type">-</span>
+                    <br>
+                    Theme: <span id="random-theme">-</span>
+                  </div>
+                </div>
+                <div class="px-4 py-4 font-bold text-xl mb-2 flex items-center justify-center my-0">
+                    <button type="button" id="generate" class="bg-transparent hover:bg-teal-400 text-teal-400 font-semibold hover:text-white py-2 px-4 border-2 border-teal-400 hover:border-transparent rounded focus:ring-2 focus:ring-teal-200">
+                        Generate
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="generate.js"></script>
+    </body>
+</html>
